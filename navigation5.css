@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body13 {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+
+}
+
+.navigation5 .spinner {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    letter-spacing: .01em;
+    color: #0ef;
+    text-decoration: none;
+    text-transform: uppercase;
+    right: -255px;
+    top: -1060px;
+    border: 16.4px solid #d5d0d6;
+    padding: 59px 59px;
+    border-radius: 50%;
+    border-left-color: #0ef;
+    border-right-color: #0ef;
+    box-shadow: 0 0 10px #0ef;
+    animation: animateSpin .8s ease-in-out infinite;
+}
+
+@keyframes animateSpin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+    
+   
